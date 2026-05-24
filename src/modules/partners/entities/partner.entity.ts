@@ -5,7 +5,7 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
 } from 'typeorm';
-import { PartnerStatus } from '@projectzero/contracts';
+import { PartnerStatus } from '@muzkle/contracts';
 
 @Entity('partners')
 export class Partner {

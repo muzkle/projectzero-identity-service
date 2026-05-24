@@ -1,6 +1,6 @@
 # ADR-001: Multi-repo architecture
 
-Each microservice lives in its own repository (directory). Shared contracts via `@projectzero/contracts`.
+Each microservice lives in its own repository (directory). Shared contracts via `@muzkle/contracts`.
 
 # ADR-002: TypeORM + PostgreSQL
 

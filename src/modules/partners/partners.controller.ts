@@ -3,7 +3,7 @@ import { AuthGuard } from '@nestjs/passport';
 import { PartnersService } from './partners.service';
 import { CreatePartnerRequestBodyDto } from './dto/partner.dto';
 import { CurrentUser } from '../../common/decorators/current-user.decorator';
-import { JwtPayload } from '@projectzero/contracts';
+import { JwtPayload } from '@muzkle/contracts';
 import { InternalServiceGuard } from '../../common/guards/internal-service.guard';
 
 @Controller('partners')

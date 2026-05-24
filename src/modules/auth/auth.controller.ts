@@ -3,7 +3,7 @@ import { AuthGuard } from '@nestjs/passport';
 import { AuthService } from './auth.service';
 import { RegisterBodyDto, LoginBodyDto, RefreshBodyDto } from './dto/auth.dto';
 import { CurrentUser } from '../../common/decorators/current-user.decorator';
-import { JwtPayload } from '@projectzero/contracts';
+import { JwtPayload } from '@muzkle/contracts';
 
 @Controller('auth')
 export class AuthController {

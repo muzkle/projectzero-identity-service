@@ -2,7 +2,7 @@ import { Controller, Post, Param, UseGuards, Get } from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
 import { PartnersService } from '../partners/partners.service';
 import { CurrentUser } from '../../common/decorators/current-user.decorator';
-import { JwtPayload, UserRole } from '@projectzero/contracts';
+import { JwtPayload, UserRole } from '@muzkle/contracts';
 import { ForbiddenException } from '@nestjs/common';
 
 @Controller('admin')

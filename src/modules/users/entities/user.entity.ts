@@ -5,7 +5,7 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
 } from 'typeorm';
-import { UserRole } from '@projectzero/contracts';
+import { UserRole } from '@muzkle/contracts';
 
 @Entity('users')
 export class User {

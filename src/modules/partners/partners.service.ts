@@ -6,7 +6,7 @@ import {
 } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { PartnerStatus, UserRole, ErrorCode } from '@projectzero/contracts';
+import { PartnerStatus, UserRole, ErrorCode } from '@muzkle/contracts';
 import { Partner } from './entities/partner.entity';
 import { PartnerMember } from './entities/partner-member.entity';
 import { User } from '../users/entities/user.entity';

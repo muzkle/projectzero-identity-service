@@ -4,7 +4,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import * as bcrypt from 'bcrypt';
 import { createHash, randomBytes } from 'crypto';
-import { UserRole, ErrorCode, JwtPayload } from '@projectzero/contracts';
+import { UserRole, ErrorCode, JwtPayload } from '@muzkle/contracts';
 import { User } from '../users/entities/user.entity';
 import { RefreshToken } from './entities/refresh-token.entity';
 import { RegisterBodyDto, LoginBodyDto } from './dto/auth.dto';
