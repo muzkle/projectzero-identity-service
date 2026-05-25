@@ -18,7 +18,7 @@ import { RefreshToken } from './modules/auth/entities/refresh-token.entity';
       type: 'postgres',
       url: process.env.DATABASE_URL,
       entities: [User, Partner, PartnerMember, RefreshToken],
-      synchronize: process.env.NODE_ENV !== 'production',
+      synchronize: process.env.DB_SYNCHRONIZE === 'true' || process.env.NODE_ENV !== 'production',
       ssl: process.env.DATABASE_URL?.includes('railway') ? { rejectUnauthorized: false } : false,
     }),
     AuthModule,
